@@ -89,16 +89,33 @@ main {
 /****************** PREPERATION TIME END ***************/
 
 
-
+/****************** INGREDIENTS START ***************/
 .ingredients{
   border: 1px solid orange;
-  height: 80px;
+  height: auto;
+  margin: 0 22px 0 22px;
 }
 
+.ingredients ul{
+  padding: 0 0 0 22px;
+}
+
+.ingredients li{
+  margin: 0 0 8px 0;
+  padding: 0 0 5px 12px;
+}
+
+.ingredients li:last-child {
+  padding-bottom: 25px;
+}
+/****************** INGREDIENTS END ***************/
+
+/****************** INSTRUCTIONS START ***************/
 .instructions{
   border: 1px solid orange;
   height: 80px;
 }
+/****************** INSTRUCTIONS END ***************/
 
 .nutrition{
   border: 1px solid orange;
