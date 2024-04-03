@@ -10,6 +10,7 @@ body{
   justify-content: center;
   min-height: 80vh;
   align-items: center;
+  background-color: gray;
 }
 
 main {
@@ -17,11 +18,41 @@ main {
   display: flex;
   flex-direction: column;
   margin: 25px;
-  width: 500px;
+  width: 450px;
   height: 600px;
 }
 
-section{
+.hero-img{
+  border: 1px solid red;
+  height: auto;
+  padding: 20px;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.header{
+  border: 1px solid orange;
+  height: 80px;
+}
+
+.prep-time{
+  border: 1px solid orange;
+  height: 80px;
+}
+
+.ingredients{
+  border: 1px solid orange;
+  height: 80px;
+}
+
+.instructions{
+  border: 1px solid orange;
+  height: 80px;
+}
+
+.nutrition{
   border: 1px solid orange;
   height: 80px;
 }
