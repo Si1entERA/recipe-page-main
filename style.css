@@ -127,9 +127,16 @@ main {
   padding: 0 0 5px 12px;
 }
 
+.instructions li:last-child {
+  padding-bottom: 25px;
+}
+
 /****************** INSTRUCTIONS END ***************/
 
 .nutrition{
   border: 1px solid orange;
-  height: 80px;
+  height: auto;
+  margin: 0 22px 0 22px;
 }
+
+
