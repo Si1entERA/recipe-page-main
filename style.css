@@ -5,7 +5,7 @@
   /* font-family: "Young Serif"; */
 }
 :root{
-  --bg-color: gray;
+  --bg-color: lightgray;
 }
 
 body{
@@ -76,15 +76,18 @@ main {
 
 .prep-time ul {
   /* margin: 0px; */
+
 }
 
 .prep-time li {
   margin: 0 0 12px 0 ;
+  padding-left: 12px;
+
 }
 
 .prep-time span{
   font-weight: 600;
-  padding: 0 0 0 12px;
+  /* padding: 0 0 0 12px ; */
 }
 /****************** PREPERATION TIME END ***************/
 
@@ -137,6 +140,11 @@ main {
   border: 1px solid orange;
   height: auto;
   margin: 0 22px 0 22px;
+}
+
+table{
+  border: 1px solid green;
+  width: 100%;
 }
 
 
