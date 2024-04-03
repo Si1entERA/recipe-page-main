@@ -113,8 +113,20 @@ main {
 /****************** INSTRUCTIONS START ***************/
 .instructions{
   border: 1px solid orange;
-  height: 80px;
+  height: auto;
+  margin: 0 22px 0 22px;
+
 }
+
+.instructions ol{
+  padding: 0 0 0 22px;
+}
+
+.instructions li{
+  margin: 0 0 8px 0;
+  padding: 0 0 5px 12px;
+}
+
 /****************** INSTRUCTIONS END ***************/
 
 .nutrition{
