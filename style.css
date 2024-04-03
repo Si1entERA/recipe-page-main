@@ -70,16 +70,21 @@ main {
 }
 
 .prep-time h3 {
-  margin: 10px 0 10px 0;
+  margin: 10px 0 18px 0;
   padding: 0 20px 0 20px;
 }
 
 .prep-time ul {
-  margin: 0px;
+  /* margin: 0px; */
 }
 
 .prep-time li {
-  margin: 0 0 8px 0;
+  margin: 0 0 12px 0 ;
+}
+
+.prep-time span{
+  font-weight: 600;
+  padding: 0 0 0 12px;
 }
 /****************** PREPERATION TIME END ***************/
 
