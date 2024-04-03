@@ -2,3 +2,26 @@
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
 }
+
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 80vh;
+  align-items: center;
+}
+
+main {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  width: 500px;
+  height: 600px;
+}
+
+section{
+  border: 1px solid orange;
+  height: 80px;
+}
