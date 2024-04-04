@@ -41,16 +41,24 @@ main {
   background-color: var(--White);
 }
 
+h1 {
+  font-family: "Young Serif";
+}
+
 h3 {
   color: var(--nutmeg);
-
 }
 
 h2, ul, ol, li::marker{
   color: var(--Dark-Raspberry);
 }
 
-ol::marker{
+h2 {
+  font-family: "Young Serif";
+  font-weight: 400;
+}
+
+ol li::marker{
   font-weight: 700;
 }
 
@@ -73,32 +81,36 @@ li {
 
 /****************** TITLE START ***************/
 .title{
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   height: auto;
   margin: 0 22px 0 22px;
 }
 
 .title h1 {
+  font-size: 35px;
   margin: 0;
-  font-size: 30px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .title p {
   margin: 15px 0 30px 0;
   padding: 0;
   font-size: 16px;
+  color: var(--Wenge-Brown);
 }
 /****************** TITLE END ***************/
 
 /****************** PREPERATION TIME START ***************/
 
 .prep-time{
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
+  background: var(--Rose-White);
+  border-radius: 20px;
   height: auto;
   margin: 0 22px 0 22px;
   padding: 0 10px 0 10px;
 }
+
 
 .prep-time h3 {
   margin: 10px 0 18px 0;
@@ -107,13 +119,11 @@ li {
 
 .prep-time ul {
   /* margin: 0px; */
-
 }
 
 .prep-time li {
   margin: 0 0 12px 0 ;
   padding-left: 12px;
-
 }
 
 .prep-time span{
@@ -125,7 +135,8 @@ li {
 
 /****************** INGREDIENTS START ***************/
 .ingredients{
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
+  border-bottom: 1px solid var(--Light-Grey);
   height: auto;
   margin: 0 22px 0 22px;
 }
@@ -146,7 +157,8 @@ li {
 
 /****************** INSTRUCTIONS START ***************/
 .instructions{
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
+  border-bottom: 1px solid var(--Light-Grey);
   height: auto;
   margin: 0 22px 0 22px;
 
@@ -168,26 +180,20 @@ li {
 /****************** INSTRUCTIONS END ***************/
 
 .nutrition{
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   height: auto;
   margin: 0 22px 0 22px;
 }
 
 table{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 100%;
   padding: 0 0 30px 0;
 
 }
 
-tr {
-  /* text-decoration: underline; */
-  /* border-bottom: 1px solid black ; */
-}
-
 td{
-  border-bottom: 1px solid black ;
-
+  border-bottom: 1px solid var(--Light-Grey) ;
 }
 
 td:first-child{
