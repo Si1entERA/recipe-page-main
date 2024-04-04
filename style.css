@@ -5,7 +5,20 @@
   /* font-family: "Young Serif"; */
 }
 :root{
+
+  /* Primary */
+
   --bg-color: lightgray;
+  --nutmeg: hsl(14, 45%, 36%);
+  --Dark-Raspberry: hsl(332, 51%, 32%);
+
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Rose-White: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light-Grey: hsl(30, 18%, 87%);
+  --Wenge-Brown: hsl(30, 10%, 34%);
+  --Dark-Charcoal: hsl(24, 5%, 18%);
 }
 
 body{
@@ -15,7 +28,7 @@ body{
   justify-content: center;
   min-height: 80vh;
   align-items: center;
-  background-color: var(--bg-color);
+  background-color: var(--Eggshell);
 }
 
 main {
@@ -25,6 +38,24 @@ main {
   margin: 25px;
   width: 650px;
   height: auto;
+  background-color: var(--White);
+}
+
+h3 {
+  color: var(--nutmeg);
+
+}
+
+h2, ul, ol, li::marker{
+  color: var(--Dark-Raspberry);
+}
+
+ol::marker{
+  font-weight: 700;
+}
+
+li {
+  color: var(--Wenge-Brown);
 }
 
 /* IMAGE START */
@@ -145,6 +176,23 @@ main {
 table{
   border: 1px solid green;
   width: 100%;
+  padding: 0 0 30px 0;
+
 }
+
+tr {
+  /* text-decoration: underline; */
+  /* border-bottom: 1px solid black ; */
+}
+
+td{
+  border-bottom: 1px solid black ;
+
+}
+
+td:first-child{
+  padding: 10px 0 12px 25px;
+}
+
 
 
