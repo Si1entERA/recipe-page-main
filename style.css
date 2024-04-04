@@ -31,17 +31,17 @@ body{
 }
 
 main {
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   margin: 25px;
-  width: 650px;
+  width: 700px;
   height: auto;
   background-color: var(--White);
 }
 
-h1 {
+h1, h2 {
   font-family: "Young Serif";
 }
 
@@ -49,12 +49,11 @@ h3 {
   color: var(--nutmeg);
 }
 
-h2, ul, ol, li::marker{
+h2, ul, ol, li::marker, td span{
   color: var(--Dark-Raspberry);
 }
 
 h2 {
-  font-family: "Young Serif";
   font-weight: 400;
 }
 
@@ -62,16 +61,14 @@ ol li::marker{
   font-weight: 700;
 }
 
-li {
+li, p, .nutrition {
   color: var(--Wenge-Brown);
 }
 
 /* IMAGE START */
 .hero-img{
-  /* border: 1px solid red; */
-  max-height: 550px;
-  max-width: 700px;
-  padding: 22px 22px 20px 22px;
+  border: 1px solid red;
+  padding: 22px 35px 20px 35px;
 }
 
 .hero-img img {
@@ -82,9 +79,9 @@ li {
 
 /****************** TITLE START ***************/
 .title{
-  /* border: 1px solid orange; */
+  border: 1px solid orange;
   height: auto;
-  margin: 0 22px 0 22px;
+  margin: 0 35px 0 35px;
 }
 
 .title h1 {
@@ -104,11 +101,11 @@ li {
 /****************** PREPERATION TIME START ***************/
 
 .prep-time{
-  /* border: 1px solid orange; */
+  border: 1px solid orange;
   background: var(--Rose-White);
   border-radius: 20px;
   height: auto;
-  margin: 0 22px 0 22px;
+  margin: 0 35px 0 35px;
   padding: 0 10px 0 10px;
 }
 
@@ -123,56 +120,30 @@ li {
   padding-left: 12px;
 }
 
-.prep-time span{
-  font-weight: 600;
-  /* padding: 0 0 0 12px ; */
-}
 /****************** PREPERATION TIME END ***************/
 
+.prep-time span, .instructions span, td span {
+  font-weight: 600;
+}
 
 /****************** INGREDIENTS START ***************/
-.ingredients{
-  /* border: 1px solid orange; */
-  border-bottom: 1px solid var(--Light-Grey);
+.ingredients, .instructions{
+  border: 1px solid orange;
   height: auto;
-  margin: 0 22px 0 22px;
-}
-
-.ingredients ul{
-  padding: 0 0 0 22px;
-}
-
-.ingredients li{
-  margin: 0 0 8px 0;
-  padding: 0 0 5px 12px;
+  margin: 0 35px 0 35px;
 }
 
 .ingredients li:last-child {
-  padding-bottom: 25px;
+  padding-bottom: 15px;
 }
 /****************** INGREDIENTS END ***************/
 
-/****************** INSTRUCTIONS START ***************/
-.instructions{
-  /* border: 1px solid orange; */
-  border-bottom: 1px solid var(--Light-Grey);
-  height: auto;
-  margin: 0 22px 0 22px;
-
-}
-
-.instructions ol{
-  padding: 0 0 0 22px;
-}
-
-.instructions li{
+.ingredients li, .instructions li{
   margin: 0 0 8px 0;
   padding: 0 0 5px 12px;
 }
+/****************** INSTRUCTIONS START ***************/
 
-.instructions span{
-  font-weight: 700;
-}
 
 .instructions li:last-child {
   padding-bottom: 25px;
@@ -183,29 +154,21 @@ li {
 .nutrition{
   /* border: 1px solid orange; */
   height: auto;
-  margin: 0 22px 0 22px;
-  color: var(--Wenge-Brown);
+  margin: 0 35px 0 35px;
 }
 
 table{
-  /* border: 1px solid green; */
+  border: 1px solid green;
   width: 100%;
   padding: 0 0 30px 0;
-
-}
-
-td{
-  border-bottom: 1px solid var(--Light-Grey) ;
-}
-
-td span{
-  font-weight: 600;
-  color: var(--Dark-Raspberry);
 }
 
 td:first-child{
   padding: 10px 0 12px 25px;
 }
 
+.ingredients, .instructions, td {
+  border-bottom: 1px solid var(--Light-Grey);
+}
 
 
