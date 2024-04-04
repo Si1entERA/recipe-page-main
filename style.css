@@ -1,8 +1,7 @@
 * {
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
-  /* font-family: "Outfit", sans-serif; */
-  /* font-family: "Young Serif"; */
+  font-family: "Outfit", sans-serif;
 }
 :root{
 
@@ -32,7 +31,8 @@ body{
 }
 
 main {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   margin: 25px;
@@ -68,8 +68,9 @@ li {
 
 /* IMAGE START */
 .hero-img{
-  border: 1px solid red;
-  height: auto;
+  /* border: 1px solid red; */
+  max-height: 550px;
+  max-width: 700px;
   padding: 22px 22px 20px 22px;
 }
 
@@ -115,10 +116,6 @@ li {
 .prep-time h3 {
   margin: 10px 0 18px 0;
   padding: 0 20px 0 20px;
-}
-
-.prep-time ul {
-  /* margin: 0px; */
 }
 
 .prep-time li {
@@ -173,6 +170,10 @@ li {
   padding: 0 0 5px 12px;
 }
 
+.instructions span{
+  font-weight: 700;
+}
+
 .instructions li:last-child {
   padding-bottom: 25px;
 }
@@ -183,6 +184,7 @@ li {
   /* border: 1px solid orange; */
   height: auto;
   margin: 0 22px 0 22px;
+  color: var(--Wenge-Brown);
 }
 
 table{
@@ -194,6 +196,11 @@ table{
 
 td{
   border-bottom: 1px solid var(--Light-Grey) ;
+}
+
+td span{
+  font-weight: 600;
+  color: var(--Dark-Raspberry);
 }
 
 td:first-child{
