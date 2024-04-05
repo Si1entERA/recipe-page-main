@@ -65,7 +65,7 @@ li, p, .nutrition {
   color: var(--Wenge-Brown);
 }
 
-/* IMAGE START */
+/****************** IMAGE START *****************/
 .hero-img{
   /* border: 1px solid red; */
   padding: 30px 35px 20px 35px;
@@ -76,6 +76,7 @@ li, p, .nutrition {
   border-radius: 10px;
 }
 /****************** IMAGE END *****************/
+
 
 /****************** TITLE START ***************/
 .title{
@@ -98,8 +99,8 @@ li, p, .nutrition {
 }
 /****************** TITLE END ***************/
 
-/****************** PREPERATION TIME START ***************/
 
+/****************** PREPERATION TIME START ***************/
 .prep-time{
   /* border: 1px solid orange; */
   background: var(--Rose-White);
@@ -119,12 +120,8 @@ li, p, .nutrition {
   margin: 0 0 12px 0 ;
   padding-left: 12px;
 }
-
 /****************** PREPERATION TIME END ***************/
 
-.prep-time span, .instructions span, td span {
-  font-weight: 600;
-}
 
 /****************** INGREDIENTS START ***************/
 .ingredients{
@@ -138,10 +135,6 @@ li, p, .nutrition {
 }
 /****************** INGREDIENTS END ***************/
 
-.ingredients li, .instructions li{
-  margin: 0 0 8px 0;
-  padding: 0 0 5px 12px;
-}
 
 /****************** INSTRUCTIONS START ***************/
 
@@ -149,9 +142,6 @@ li, p, .nutrition {
   padding: 0 0 0 22px;
 }
 
-
-
-/****************** INSTRUCTIONS START ***************/
 .instructions{
   /* border: 1px solid orange; */
   height: auto;
@@ -165,8 +155,10 @@ li, p, .nutrition {
 .instructions li:last-child {
   padding-bottom: 25px;
 }
-
 /****************** INSTRUCTIONS END ***************/
+
+
+/****************** NUTRITION START *****************/
 
 .nutrition{
   /* border: 1px solid orange; */
@@ -180,9 +172,20 @@ table{
   padding: 0 0 30px 0;
 }
 
-
 td{
   padding: 10px 0 12px 25px;
+}
+
+/****************** NUTRITION END *****************/
+
+
+.prep-time span, .instructions span, td span {
+  font-weight: 600;
+}
+
+.ingredients li, .instructions li{
+  margin: 0 0 8px 0;
+  padding: 0 0 5px 12px;
 }
 
 .ingredients, .instructions, td {
@@ -206,5 +209,4 @@ td{
   .hero-img img {
     display: none;
   }
-  
 }
