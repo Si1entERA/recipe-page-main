@@ -50,7 +50,7 @@ h3, td span {
 }
 
 h2, ul, ol, li::marker{
-  color: var(--Dark-Raspberry);
+  color: var(--nutmeg);
 }
 
 h2 {
@@ -175,7 +175,7 @@ li, p, .nutrition {
 }
 
 table{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 100%;
   padding: 0 0 30px 0;
 }
@@ -189,4 +189,22 @@ td{
   border-bottom: 1px solid var(--Light-Grey);
 }
 
+@media screen and (max-width: 650px) {
+  main {
+    margin: 0;
+    border-radius: 0;
+    width: 100vh;
+  }
 
+  .hero-img {
+    background: url(./assets/images/image-omelette.jpeg);
+    height: 150px;
+    background-size: cover;
+
+  }
+
+  .hero-img img {
+    display: none;
+  }
+  
+}
